@@ -10,7 +10,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	if r.URL.Path != "/"{
 		http.NotFound(w, r)
     }
-	  fmt.Fprintf(w, `al konyen bouzin, Jeff genyen yo gwo zozo`)
+	  fmt.Fprintf(w, `Jeff and Gilbert are learning how to build and deploy applications")
 	  return
   }
 
